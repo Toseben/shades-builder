@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "f61117f89c2d3b31953d"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "bae87cfbd89d5f32e2b5"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -10163,7 +10163,7 @@ exports = module.exports = __webpack_require__(354)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);", ""]);
 
 // module
-exports.push([module.i, "*{padding:0;margin:0;box-sizing:border-box;font-family:'Lato', sans-serif}.ui{position:relative;z-index:1}.buttons{position:absolute;left:50%;bottom:7.5vh;transform:translate(-50%, 0);width:100%}.buttons .btn-default{border:0px;padding:10px 50px;font-size:2.5vh;font-weight:100;text-transform:uppercase;transition:0.25s;box-shadow:0px 2px 16px rgba(0,0,0,0.4)}.item-name{position:absolute;left:50%;top:50%;transform:translate(-50%, -50%);width:100vw;font-size:4.5vh;font-weight:100;text-transform:uppercase}.item-name .bold{font-weight:900}.loading{width:100%;height:100%;margin:0 auto;top:0;left:0;background-color:#fff;z-index:100000;transition:opacity 0.5s ease-in-out;pointer-events:none;position:absolute}.sk-circle{margin:50% auto;width:80px;height:80px;position:relative;transform:translate(0%, -50%)}.sk-circle .sk-child{width:100%;height:100%;position:absolute;left:0;top:0}.sk-circle .sk-child:before{content:'';display:block;margin:0 auto;width:2.5%;height:25%;background-color:#222;border-radius:100%;-webkit-animation:sk-circleBounceDelay 1.2s infinite ease-in-out both;animation:sk-circleBounceDelay 1.2s infinite ease-in-out both}.sk-circle .sk-circle2{-webkit-transform:rotate(30deg);-ms-transform:rotate(30deg);transform:rotate(30deg)}.sk-circle .sk-circle3{-webkit-transform:rotate(60deg);-ms-transform:rotate(60deg);transform:rotate(60deg)}.sk-circle .sk-circle4{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.sk-circle .sk-circle5{-webkit-transform:rotate(120deg);-ms-transform:rotate(120deg);transform:rotate(120deg)}.sk-circle .sk-circle6{-webkit-transform:rotate(150deg);-ms-transform:rotate(150deg);transform:rotate(150deg)}.sk-circle .sk-circle7{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}.sk-circle .sk-circle8{-webkit-transform:rotate(210deg);-ms-transform:rotate(210deg);transform:rotate(210deg)}.sk-circle .sk-circle9{-webkit-transform:rotate(240deg);-ms-transform:rotate(240deg);transform:rotate(240deg)}.sk-circle .sk-circle10{-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}.sk-circle .sk-circle11{-webkit-transform:rotate(300deg);-ms-transform:rotate(300deg);transform:rotate(300deg)}.sk-circle .sk-circle12{-webkit-transform:rotate(330deg);-ms-transform:rotate(330deg);transform:rotate(330deg)}.sk-circle .sk-circle2:before{-webkit-animation-delay:-1.1s;animation-delay:-1.1s}.sk-circle .sk-circle3:before{-webkit-animation-delay:-1s;animation-delay:-1s}.sk-circle .sk-circle4:before{-webkit-animation-delay:-0.9s;animation-delay:-0.9s}.sk-circle .sk-circle5:before{-webkit-animation-delay:-0.8s;animation-delay:-0.8s}.sk-circle .sk-circle6:before{-webkit-animation-delay:-0.7s;animation-delay:-0.7s}.sk-circle .sk-circle7:before{-webkit-animation-delay:-0.6s;animation-delay:-0.6s}.sk-circle .sk-circle8:before{-webkit-animation-delay:-0.5s;animation-delay:-0.5s}.sk-circle .sk-circle9:before{-webkit-animation-delay:-0.4s;animation-delay:-0.4s}.sk-circle .sk-circle10:before{-webkit-animation-delay:-0.3s;animation-delay:-0.3s}.sk-circle .sk-circle11:before{-webkit-animation-delay:-0.2s;animation-delay:-0.2s}.sk-circle .sk-circle12:before{-webkit-animation-delay:-0.1s;animation-delay:-0.1s}@-webkit-keyframes sk-circleBounceDelay{0%,80%,100%{-webkit-transform:scale(0);transform:scale(0)}40%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes sk-circleBounceDelay{0%,80%,100%{-webkit-transform:scale(0);transform:scale(0)}40%{-webkit-transform:scale(1);transform:scale(1)}}\n", ""]);
+exports.push([module.i, "*{padding:0;margin:0;box-sizing:border-box;font-family:'Lato', sans-serif}.ui{position:relative;z-index:1}.buttons{position:absolute;left:50%;bottom:7.5vh;transform:translate(-50%, 0);width:100%}.buttons .btn-default{border:0px;padding:10px 50px;font-size:2.5vh;font-weight:100;text-transform:uppercase;transition:0.25s;box-shadow:0px 2px 16px rgba(0,0,0,0.4)}.buttons.name-tag{top:0;margin:3.75vh;pointer-events:none}.buttons.name-tag .btn-default{padding:10px 25px}.item-name{position:absolute;left:50%;top:50%;transform:translate(-50%, -50%);width:100vw;font-size:4.5vh;font-weight:100;text-transform:uppercase}.item-name .bold{font-weight:900}.loading{width:100%;height:100%;margin:0 auto;top:0;left:0;background-color:#fff;z-index:100000;transition:opacity 0.5s ease-in-out;pointer-events:none;position:absolute}.sk-circle{width:80px;height:80px;position:relative;transform:translate(-50%, -50%);left:50%;top:50%}.sk-circle .sk-child{width:100%;height:100%;position:absolute;left:0;top:0}.sk-circle .sk-child:before{content:'';display:block;margin:0 auto;width:2.5%;height:25%;background-color:#222;border-radius:100%;-webkit-animation:sk-circleBounceDelay 1.2s infinite ease-in-out both;animation:sk-circleBounceDelay 1.2s infinite ease-in-out both}.sk-circle .sk-circle2{-webkit-transform:rotate(30deg);-ms-transform:rotate(30deg);transform:rotate(30deg)}.sk-circle .sk-circle3{-webkit-transform:rotate(60deg);-ms-transform:rotate(60deg);transform:rotate(60deg)}.sk-circle .sk-circle4{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.sk-circle .sk-circle5{-webkit-transform:rotate(120deg);-ms-transform:rotate(120deg);transform:rotate(120deg)}.sk-circle .sk-circle6{-webkit-transform:rotate(150deg);-ms-transform:rotate(150deg);transform:rotate(150deg)}.sk-circle .sk-circle7{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}.sk-circle .sk-circle8{-webkit-transform:rotate(210deg);-ms-transform:rotate(210deg);transform:rotate(210deg)}.sk-circle .sk-circle9{-webkit-transform:rotate(240deg);-ms-transform:rotate(240deg);transform:rotate(240deg)}.sk-circle .sk-circle10{-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}.sk-circle .sk-circle11{-webkit-transform:rotate(300deg);-ms-transform:rotate(300deg);transform:rotate(300deg)}.sk-circle .sk-circle12{-webkit-transform:rotate(330deg);-ms-transform:rotate(330deg);transform:rotate(330deg)}.sk-circle .sk-circle2:before{-webkit-animation-delay:-1.1s;animation-delay:-1.1s}.sk-circle .sk-circle3:before{-webkit-animation-delay:-1s;animation-delay:-1s}.sk-circle .sk-circle4:before{-webkit-animation-delay:-0.9s;animation-delay:-0.9s}.sk-circle .sk-circle5:before{-webkit-animation-delay:-0.8s;animation-delay:-0.8s}.sk-circle .sk-circle6:before{-webkit-animation-delay:-0.7s;animation-delay:-0.7s}.sk-circle .sk-circle7:before{-webkit-animation-delay:-0.6s;animation-delay:-0.6s}.sk-circle .sk-circle8:before{-webkit-animation-delay:-0.5s;animation-delay:-0.5s}.sk-circle .sk-circle9:before{-webkit-animation-delay:-0.4s;animation-delay:-0.4s}.sk-circle .sk-circle10:before{-webkit-animation-delay:-0.3s;animation-delay:-0.3s}.sk-circle .sk-circle11:before{-webkit-animation-delay:-0.2s;animation-delay:-0.2s}.sk-circle .sk-circle12:before{-webkit-animation-delay:-0.1s;animation-delay:-0.1s}@-webkit-keyframes sk-circleBounceDelay{0%,80%,100%{-webkit-transform:scale(0);transform:scale(0)}40%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes sk-circleBounceDelay{0%,80%,100%{-webkit-transform:scale(0);transform:scale(0)}40%{-webkit-transform:scale(1);transform:scale(1)}}\n", ""]);
 
 // exports
 
@@ -116418,7 +116418,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var itemList = ['Shiny Shades', 'Wooden Shades', 'Golden Shades', 'Flat Shades'];
+var itemList = ['FRAME Glasses', 'Suki Glasses', 'Toyota Glasses', 'Versace Glasses'];
 
 var App = function (_Component) {
   _inherits(App, _Component);
@@ -116522,13 +116522,26 @@ var App = function (_Component) {
           ),
           _react2.default.createElement(
             'div',
+            { className: 'ui buttons name-tag' },
+            _react2.default.createElement(
+              'div',
+              { className: 'text-left' },
+              _react2.default.createElement(
+                'div',
+                { className: 'btn btn-default name-tag' },
+                itemList[this.props.shades]
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'div',
             { className: 'ui buttons' },
             _react2.default.createElement(
               'div',
               { className: 'text-center' },
               _react2.default.createElement(
                 'button',
-                { className: 'btn btn-default', onClick: function onClick(e) {
+                { className: 'btn btn-default buy-button', onClick: function onClick(e) {
                     return _this2.redirect(e, true);
                   } },
                 'Buy'

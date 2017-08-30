@@ -6,10 +6,10 @@ import { setBuy, setLoaded } from '../redux/actions'
 import AFrame from '../components/AFrame'
 
 const itemList = [
-  'Shiny Shades',
-  'Wooden Shades',
-  'Golden Shades',
-  'Flat Shades'
+  'FRAME Glasses',
+  'Suki Glasses',
+  'Toyota Glasses',
+  'Versace Glasses'
 ]
 
 class App extends Component {
@@ -71,9 +71,15 @@ class App extends Component {
             </div>
           </div>
 
+          <div className="ui buttons name-tag">
+            <div className="text-left">
+              <div className="btn btn-default name-tag">{itemList[this.props.shades]}</div>
+            </div>
+          </div>
+
           <div className="ui buttons">
             <div className="text-center">
-              <button className="btn btn-default" onClick={(e) => this.redirect(e, true)}>Buy</button>
+              <button className="btn btn-default buy-button" onClick={(e) => this.redirect(e, true)}>Buy</button>
             </div>
           </div>
 

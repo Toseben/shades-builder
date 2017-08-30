@@ -28,6 +28,14 @@
     transition: 0.25s;
     box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.4);
   }
+  &.name-tag {
+    top: 0;
+    margin: 3.75vh;
+    pointer-events: none;
+    .btn-default {
+      padding: 10px 25px;
+    }
+  }
 }
 
 .item-name {
@@ -60,11 +68,12 @@
 }
 
 .sk-circle {
-  margin: 50% auto;
   width: 80px;
   height: 80px;
   position: relative;
-  transform: translate(0%,-50%);
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
 }
 .sk-circle .sk-child {
   width: 100%;
