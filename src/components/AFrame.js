@@ -63,7 +63,7 @@ class AFrame extends Component {
           <a-asset-item id="shades-obj" src="./geo/shades.obj"></a-asset-item>
           <a-asset-item id="glasses-obj" src="./geo/glasses.obj"></a-asset-item>
           <a-asset-item id="box-obj" src="./geo/box.obj"></a-asset-item>
-          <a-asset-item id="dwarf-obj" src="./geo/dwarf.obj"></a-asset-item>
+          <a-asset-item id="dwarf-obj" src="./geo/dwarf_low.obj"></a-asset-item>
           <a-asset-item id="shadow-obj" src="./geo/shadow.obj"></a-asset-item>
 
           <a-mixin id="arrow-hover"

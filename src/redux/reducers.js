@@ -1,5 +1,5 @@
 const initialState = {
-  shades: 0,
+  shades: 2,
   buy: false,
   loaded: false
 }

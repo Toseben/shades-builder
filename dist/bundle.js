@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "9d76bfdc5bfbef828694"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "670f495e4bdd86c9491e"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -116327,7 +116327,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reducer;
 var initialState = {
-  shades: 0,
+  shades: 2,
   buy: false,
   loaded: false
 };
@@ -116713,7 +116713,7 @@ var AFrame = function (_Component) {
           _react2.default.createElement('a-asset-item', { id: 'shades-obj', src: './geo/shades.obj' }),
           _react2.default.createElement('a-asset-item', { id: 'glasses-obj', src: './geo/glasses.obj' }),
           _react2.default.createElement('a-asset-item', { id: 'box-obj', src: './geo/box.obj' }),
-          _react2.default.createElement('a-asset-item', { id: 'dwarf-obj', src: './geo/dwarf.obj' }),
+          _react2.default.createElement('a-asset-item', { id: 'dwarf-obj', src: './geo/dwarf_low.obj' }),
           _react2.default.createElement('a-asset-item', { id: 'shadow-obj', src: './geo/shadow.obj' }),
           _react2.default.createElement('a-mixin', { id: 'arrow-hover',
             'animation__scale-up': 'property: scale; dur: 250; to: 1.5 1.5 1.5; startEvents: scale-up',
