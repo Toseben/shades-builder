@@ -52,12 +52,13 @@ AFRAME.registerComponent('shades-selector', {
 class AFrame extends Component {
 
   render() {
+
     // REDUCERS AND STATE FOR COMPONENTS
     updateShades = this.props.updateShades;
     shades = this.props.shades;
 
     return (
-      <Scene vr-mode-ui="enabled: false">
+      <Scene vr-mode-ui="enabled: false" keyboard-shortcuts="enterVR: false">
         <a-assets>
           <a-asset-item id="shades-obj" src="./geo/shades.obj"></a-asset-item>
           <a-asset-item id="glasses-obj" src="./geo/glasses.obj"></a-asset-item>

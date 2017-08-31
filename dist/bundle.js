@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "bae87cfbd89d5f32e2b5"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "9d76bfdc5bfbef828694"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -116699,13 +116699,14 @@ var AFrame = function (_Component) {
   _createClass(AFrame, [{
     key: 'render',
     value: function render() {
+
       // REDUCERS AND STATE FOR COMPONENTS
       updateShades = this.props.updateShades;
       shades = this.props.shades;
 
       return _react2.default.createElement(
         _aframeReact.Scene,
-        { 'vr-mode-ui': 'enabled: false' },
+        { 'vr-mode-ui': 'enabled: false', 'keyboard-shortcuts': 'enterVR: false' },
         _react2.default.createElement(
           'a-assets',
           null,
@@ -117055,6 +117056,13 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+AFRAME.registerComponent('init-cam', {
+
+  init: function init() {
+    this.el.setAttribute('position', { x: 0, y: 0.8, z: 0 });
+  }
+});
+
 var CameraLight = function (_Component) {
   _inherits(CameraLight, _Component);
 
@@ -117070,7 +117078,7 @@ var CameraLight = function (_Component) {
       return _react2.default.createElement(
         _aframeReact.Entity,
         null,
-        _react2.default.createElement(_aframeReact.Entity, { id: 'camera', camera: true, 'mouse-cursor': true, position: '0 0.8 0',
+        _react2.default.createElement(_aframeReact.Entity, { id: 'camera', camera: true, 'mouse-cursor': true, 'init-cam': true,
           'orbit-controls': ' target: #target; enableDamping: true; enablePan: false; enableZoom: false; dampingFactor: 0.125; minPolarAngle: 0.6; maxPolarAngle: 1.6; rotateSpeed: 0.15; rotateToSpeed: 0.05; logPosition: false; ' }),
         _react2.default.createElement(_aframeReact.Entity, { light: 'type: ambient; color: #FBFFFD; intensity: 0.6' }),
         _react2.default.createElement(_aframeReact.Entity, { light: 'type: directional; color: #FFFFFB; intensity: 0.325', position: '-0.25 0.75 1' }),

@@ -3,11 +3,18 @@ import { Entity } from 'aframe-react'
 
 import 'aframe-orbit-controls-component-2'
 
+AFRAME.registerComponent('init-cam', {
+
+  init: function() {
+    this.el.setAttribute('position', { x: 0, y: 0.8, z: 0 });
+  }
+})
+
 export default class CameraLight extends Component {
   render() {
     return (
       <Entity>
-        <Entity id="camera" camera mouse-cursor position="0 0.8 0"
+        <Entity id="camera" camera mouse-cursor init-cam
           orbit-controls="
             target: #target;
             enableDamping: true;
